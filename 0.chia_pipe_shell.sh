@@ -1096,7 +1096,7 @@ then
         ${run}.fulllinker.chimeric.paired.UxxU.nr.sorted.bam \
         ${run}.fulllinker.chimeric.single.UxxU.nr.sorted.bam \
         ${run}.FullLinker.NonChimeric.paired.UxxU.nr.sorted.bam \
-        ${run}.FullLinker.NonChimeric.single.xx.nr.sorted.bam \
+        ${run}.FullLinker.NonChimeric.single.xx.nr.sorted.bam 
     
     # Create BAM index
     samtools index ${run}.for.BROWSER.bam ${run}.for.BROWSER.bam.bai
